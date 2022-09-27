@@ -2,16 +2,14 @@
 // import './App.css';
 import React, { useState } from "react";
 
-import ToDoIncrement from "./components/ToDoIncrement"
+import ToDoIncrement from "./components/ToDoIncrement";
 
 import ToDoForm from "./components/ToDoForm";
 import ToDoList from "./components/ToDoList";
 
 function App() {
   const [todos, setTodos] = useState([
-    "Belajar Fundamental React", 
-    "Ngoding sampai lemas !",
-    "Nambah satu lagi",
+    // "Belajar Fundamental React", 
   ]);
   // bikin satu fungsi untuk menambahkan si todos
   const fungsiPenambahTodos = (todo) => {
